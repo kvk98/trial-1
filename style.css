@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position:sticky;
+  top:0px;
+  z-index: 1;
+}
+
+nav>a, nav>div>a {
+  color: white;
+  text-decoration: none;
+  margin-inline: 20px;
+}
+
+#books,#Register {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+#books-div,#register-div {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px darkgray;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+#books-heading {
+  margin-top: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+table,th,td{
+  border: 2px solid #ececec;
+  border-collapse: collapse;
+}
+
+td,th {
+  padding: 10px;
+}
+
+td>a {
+  color: #220fbc;
+  display: inline-block;
+  padding-bottom: 10pxf;
+}
+
+#register-div {
+  width: 612px;;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+input{
+  border: 1px solid #ececec;
+  padding: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: medium;
+}
